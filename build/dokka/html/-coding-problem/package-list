@@ -1,0 +1,10 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-coding-problem/[root]/index.html
+$dokka.location://main/#kotlin.Array[kotlin.String]/PointingToDeclaration/-coding-problem/[root]/main.html
+$dokka.location:array_and_hashing////PointingToDeclaration/-coding-problem/array_and_hashing/index.html
+$dokka.location:array_and_hashing//containsDuplicate/#kotlin.IntArray/PointingToDeclaration/-coding-problem/array_and_hashing/contains-duplicate.html
+$dokka.location:array_and_hashing//isAnagram/#kotlin.String#kotlin.String/PointingToDeclaration/-coding-problem/array_and_hashing/is-anagram.html
+$dokka.location:array_and_hashing//twoSum/#kotlin.IntArray#kotlin.Int/PointingToDeclaration/-coding-problem/array_and_hashing/two-sum.html
+array_and_hashing
+
