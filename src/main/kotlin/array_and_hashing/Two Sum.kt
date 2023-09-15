@@ -1,13 +1,15 @@
 package array_and_hashing
 
 fun twoSum(nums: IntArray, target: Int): IntArray {
-    val indexAnswers = hashMapOf<Int, Int>()
-    nums.forEachIndexed{index, element ->
-        val diff = target - element
-        if(diff in indexAnswers){
-            return intArrayOf(indexAnswers[diff]!!, index)
+    val map = hashMapOf<Int, Int>()
+    nums.forEachIndexed { index, i ->
+        val diff = target - i
+        if (map.containsKey(diff)) {
+            return intArrayOf(map[diff]!!, index)
+        } else {
+            map[i] = index
         }
-        indexAnswers[element] = index
     }
-    return intArrayOf(0,0)
+    println(map)
+    return intArrayOf(0, 0)
 }

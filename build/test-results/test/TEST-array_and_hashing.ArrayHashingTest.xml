@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="array_and_hashing.ArrayHashingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-10T16:53:38" hostname="DESKTOP-VJOAFCN" time="0.028">
-  <properties/>
-  <testcase name="case 1, should true()" classname="array_and_hashing.ArrayHashingTest" time="0.024"/>
-  <testcase name="case 3, should true()" classname="array_and_hashing.ArrayHashingTest" time="0.001"/>
-  <testcase name="case 2, should false()" classname="array_and_hashing.ArrayHashingTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
