@@ -1,20 +1,20 @@
 package array_and_hashing
 
 fun isAnagram(s: String, t: String): Boolean {
-    val countS = hashMapOf<Char, Int>()
-    val countT = hashMapOf<Char, Int>()
 
-    if (s.length != t.length) {
-        return false
+    if (s.length != t.length) return false //efficient way
+
+    val sList = MutableList(26) { 0 }
+    val tList = MutableList(26) { 0 }
+
+    s.toCharArray().forEach {
+        val ascii = it - 'a'
+        sList[ascii] = sList[ascii] + 1
+    }
+    t.toCharArray().forEach {
+        val ascii = it - 'a'
+        tList[ascii] = tList[ascii] + 1
     }
 
-    s.forEachIndexed { index, element ->
-        countS[s[index]] = (countS[s[index]] ?: 0) + 1
-        countT[t[index]] = (countT[t[index]] ?: 0) + 1
-    }
-
-    countS.forEach(::println)
-    countT.forEach(::println)
-
-    return countS == countT
+    return  sList == tList
 }

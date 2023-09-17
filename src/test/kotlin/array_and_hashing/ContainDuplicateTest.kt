@@ -3,7 +3,7 @@ package array_and_hashing
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
-class ArrayHashingTest{
+class ContainDuplicateTest{
 
     @Test
     fun `case 1, should true`(){
